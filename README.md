@@ -24,4 +24,4 @@ We have created an in-depth tutorial on how you can create a website using corpo
 
 ## Documentation
 
-Read Contentstack [docs](https://contentstackdocs.built.io)
+Read Contentstack [docs](https://www.contentstack.com/docs/)

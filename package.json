@@ -1,10 +1,14 @@
 {
-    "name": "corporate-theme",
-    "version": "0.0.1",
-    "dependencies": {
-        "contentstack-express": "^3.0.0"
-    },
-    "scripts": {
-        "start": "node app.js"
-    }
+  "name": "corporate-theme",
+  "version": "0.0.1",
+  "dependencies": {
+    "contentstack-express": "^3.0.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
